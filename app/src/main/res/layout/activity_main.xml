@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.lisboncard.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5">
+
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+            <ImageView
+            android:id="@+id/cityoftolerance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/cityoftelerance3" />
+
+            <TextView
+            android:id="@+id/textlisbon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textcityoftolerance"
+            android:layout_marginLeft="@dimen/layout_margin_lisbon"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/image_title"
+            android:textColor="@color/bt_text"
+            android:textSize="@dimen/image_title"
+            android:textStyle="bold"/>
+
+            <TextView
+            android:id="@+id/textcityoftolerance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_margin_lisbon"
+            android:layout_marginBottom="@dimen/layout_margin_lisbon"
+            android:layout_alignBottom="@id/cityoftolerance"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/image_subject"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/image_subject" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/find"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/oneoftwo_title"
+            android:layout_margin="@dimen/layout_margin_lisbon"
+            android:textAlignment="center"
+            android:autoSizeTextType="uniform"
+            android:textColor="@android:color/black"
+            android:textAllCaps="true"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/layout_margin_lisbon">
+
+        <Button
+            android:id="@+id/bt_difcultures"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/bk_bt_one"
+            android:text="@string/bt_one"
+            android:textSize="@dimen/bt_all"
+            android:textColor="@color/bt_text"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/bt_creatjobs"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/layout_margin_lisbon"
+            android:layout_weight="1"
+            android:background="@color/bk_bt_two"
+            android:text="@string/bt_two"
+            android:textSize="@dimen/bt_all"
+            android:textColor="@color/bt_text"
+            android:textStyle="bold"             />
+
+        <Button
+            android:id="@+id/bt_socinov"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/layout_margin_lisbon"
+            android:layout_weight="1"
+            android:background="@color/bk_bt_three"
+            android:text="@string/bt_three"
+            android:textSize="@dimen/bt_all"
+            android:textColor="@color/bt_text"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/welcome"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/twooftwo_title"
+            android:autoSizeTextType="uniform"
+            android:textAlignment="center"
+
+            android:textColor="@android:color/black"
+            android:layout_margin="@dimen/layout_margin_lisbon"
+            android:textAllCaps="true"
+            android:gravity="center"
+
+            />
+
+    </LinearLayout>
+
+
+    </LinearLayout>

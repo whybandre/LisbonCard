@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LisbonCard</string>
+
+    <string name="image_title">Lisbon</string>
+    <string name="image_subject">City of Tolerance!</string>
+    <string name="oneoftwo_title">Where you can find</string>
+    <string name="bt_one">Different Cultures</string>
+    <string name="bt_two">Creative Jobs</string>
+    <string name="bt_three">Social Innovation</string>
+    <string name="twooftwo_title">And everyone is always welcome</string>
+
+</resources>
