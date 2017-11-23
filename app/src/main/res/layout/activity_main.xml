@@ -6,6 +6,8 @@
     android:orientation="vertical"
     tools:context="com.example.android.lisboncard.MainActivity">
 
+
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -30,7 +32,7 @@
             android:layout_marginLeft="@dimen/layout_margin_lisbon"
             android:fontFamily="sans-serif-light"
             android:text="@string/image_title"
-            android:textColor="@color/bt_text"
+            android:textColor="@color/colorPrimary"
             android:textSize="@dimen/image_title"
             android:textStyle="bold"/>
 
@@ -43,14 +45,14 @@
             android:layout_alignBottom="@id/cityoftolerance"
             android:fontFamily="sans-serif-light"
             android:text="@string/image_subject"
-            android:textColor="@android:color/black"
+            android:textColor="@color/colorPrimary"
             android:textSize="@dimen/image_subject" />
 
         </RelativeLayout>
 
     </LinearLayout>
 
-    <LinearLayout
+        <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1">
@@ -70,6 +72,8 @@
             />
 
     </LinearLayout>
+
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -140,3 +144,4 @@
 
 
     </LinearLayout>
+

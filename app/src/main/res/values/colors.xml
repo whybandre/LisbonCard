@@ -7,7 +7,9 @@
     <color name="bk_bt_one">#ed5740</color>
     <color name="bk_bt_two">#f8d14c</color>
     <color name="bk_bt_three">#3d9cdf</color>
-
     <color name="bt_text">#f2f2f2</color>
+    <color name="tx_Lisbon">#f2f2f2</color>
+
+
 
 </resources>
